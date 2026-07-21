@@ -1,4 +1,4 @@
-# 🪵 Timby — Eco-Friendly Wooden Toys
+#  Timby — Eco-Friendly Wooden Toys
 
 A full-stack PHP e-commerce web application for a premium eco-friendly wooden toys brand.
 
@@ -8,14 +8,14 @@ Built with **PHP**, **MySQL (mysqli)**, and a custom **Arboreal Elegance** desig
 
 ---
 
-## ✨ Features
+##  Features
 
 | Role | Features |
 |---|---|
-| 🛍️ **Public** | Browse products, search, view product details, read reviews, newsletter subscribe |
-| 👤 **Member** | Register/Login, shopping cart, checkout, view orders, write reviews, custom requests |
-| ⚙️ **Admin** | Manage products (add/edit/delete), view members, manage transactions & order statuses |
-| 📢 **Marketing** | View and manage promotional coupons, newsletter subscribers, custom requests |
+|  **Public** | Browse products, search, view product details, read reviews, newsletter subscribe |
+|  **Member** | Register/Login, shopping cart, checkout, view orders, write reviews, custom requests |
+|  **Admin** | Manage products (add/edit/delete), view members, manage transactions & order statuses |
+|  **Marketing** | View and manage promotional coupons, newsletter subscribers, custom requests |
 
 ---
 
@@ -35,8 +35,8 @@ timby_project/
 ├── receipt.php            # Order receipt
 ├── edit_profile.php       # Member profile editor
 ├── request_custom.php     # Custom toy request form
-├── db_conn.php            # ⚠️ NOT in Git — see db_conn.example.php
-├── db_conn.example.php    # ✅ DB config template (copy & rename)
+├── db_conn.php            #  NOT in Git — see db_conn.example.php
+├── db_conn.example.php    #  DB config template (copy & rename)
 ├── timbydb_setup.sql      # Database schema + sample data
 ├── style.css              # Arboreal Elegance design system
 └── images/                # Product and UI images
@@ -75,7 +75,7 @@ http://localhost/timby_project/
 
 ---
 
-## 🔑 Test Login Credentials
+##  Test Login Credentials
 
 | Role | Email | Password |
 |---|---|---|
@@ -83,11 +83,11 @@ http://localhost/timby_project/
 | Marketing | `marketing@timby.com` | `password` |
 | Member | `ahmad@email.com` | `password` |
 
-> ⚠️ These are sample credentials from `timbydb_setup.sql`. Change them in production!
+>  These are sample credentials from `timbydb_setup.sql`. Change them in production!
 
 ---
 
-## 🎨 Design System — *Arboreal Elegance*
+##  Design System — *Arboreal Elegance*
 
 | Token | Value |
 |---|---|
@@ -109,7 +109,7 @@ http://localhost/timby_project/
 
 ---
 
-## ⚠️ Security Notes
+## Security Notes
 
 - `db_conn.php` is excluded from git via `.gitignore` — **never commit live credentials**
 - Passwords are hashed with `password_hash()` / `password_verify()`
@@ -118,10 +118,10 @@ http://localhost/timby_project/
 
 ---
 
-## 📄 License
+##  License
 
-This project was developed as a university software engineering project.
+This project was developed as a university software engineering project under Web Application Development.
 
 ---
 
-*Made with 🌿 by the Timby Team — UNIMAS*
+*Made with 🌿 by the SixSeven Team — UNIMAS*
