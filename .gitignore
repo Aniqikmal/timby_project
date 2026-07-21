@@ -1,0 +1,31 @@
+# =============================================
+# TIMBY PROJECT - .gitignore
+# =============================================
+
+# --- SENSITIVE: Database credentials ---
+# Keep db_conn.php out of git (it has passwords)
+# Use db_conn.example.php as the safe template instead
+db_conn.php
+
+# --- Local environment ---
+.env
+*.env.local
+
+# --- XAMPP / PHP logs ---
+*.log
+error_log
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor folders ---
+.vscode/
+.idea/
+*.suo
+*.user
+
+# --- Composer (if used) ---
+vendor/
+composer.lock
